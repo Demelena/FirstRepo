@@ -12,7 +12,7 @@ public class YahooSearchTest {
     private WebDriver driver;
             
 
-    @Test
+    @Tests
     public void testSearch() throws Exception {
 
         File file = new File("src/test/resources");
@@ -20,9 +20,19 @@ public class YahooSearchTest {
         System.setProperty("webdriver.gecko.driver", path + "/geckodriver" );
         driver = new FirefoxDriver();
             
-            navigatingToMainPage();
+ //           navigatingToMainPage();
 //            typeRequestInSearchInput();
 //            submitSearch();
 //            printOutAmountOfResult();
     }
+@Test
+  @Tests
+    public void testSearch1() throws Exception {
+
+        File file = new File("src/test/resources");
+        String path = file.getAbsolutePath();
+        System.setProperty("webdriver.gecko.driver", path + "/geckodriver" );
+        driver = new FirefoxDriver();
+
+
 }
