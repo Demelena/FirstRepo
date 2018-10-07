@@ -27,7 +27,7 @@ public class YahooSearchTest {
     }
 @Test
   @Tests
-    public void testSearch1() throws Exception {
+    public void testRENAMINGthis() throws Exception {
 
         File file = new File("src/test/resources");
         String path = file.getAbsolutePath();
